@@ -1,0 +1,50 @@
+# Translation of Themes - Crunchy Recipe in Portuguese (Brazil)
+# This file is distributed under the same license as the Themes - Crunchy Recipe package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2023-09-07 13:19:29+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: GlotPress/4.0.1\n"
+"Language: pt_BR\n"
+"Project-Id-Version: Themes - Crunchy Recipe\n"
+
+#. Description of the theme
+#: style.css
+#, gp-priority: high
+msgid "Crunchy Recipe is a free recipe WordPress theme for creating a professional food and recipe website. This theme is compatible with the Delicious Recipes plugin, offering several features that make it simple to create and share your recipes with your readers. This mobile-friendly theme is SEO optimized to improve your recipe rankings on search engines. Crunchy Recipe is optimized for speed to load your site fast and rank better on search engines. This theme offers unlimited colors and 1400+ Google fonts to change your website's look and feel with a single click. With the pre-defined Instagram section, you can showcase your recipe images and grow your followers. It also includes newsletter integration to help you grow your email list and build strong relationships with readers. Crunchy Recipe is translation-ready, RTL-ready, and WooCommerce-compatible. Check the demo at https://wpdelicious.com/wordpress-themes/crunchy-recipe/, and get support at https://wpdelicious.com/support-ticket/"
+msgstr "Crunchy Recipe é um tema WordPress de receita gratuito para criar um site profissional de alimentação e receitas. Este tema é compatível com o plugin Delicious Recipes, oferecendo diversos recursos que simplificam a criação e o compartilhamento de suas receitas com seus leitores. Este tema compatível com dispositivos móveis é otimizado para SEO afim de melhorar a classificação de suas receitas nos mecanismos de pesquisa. O Crunchy Recipe é otimizado aumentar a velocidade do seu site, carregando rapidamente e classificando-o melhor nos mecanismos de pesquisa. Este tema oferece cores ilimitadas e mais de 1400 fontes do Google para alterar a aparência do seu site com um único clique. Com a seção pré-definida do Instagram, você pode mostrar suas imagens de receitas e aumentar seus seguidores. Ele também inclui integração de boletim informativo para ajudá-lo a aumentar sua lista de e-mail e construir relacionamentos fortes com os leitores. Crunchy Recipe está pronto para tradução, pronto para RTL e compatível com WooCommerce. Confira a demonstração em https://wpdelicious.com/wordpress-themes/crunchy-recipe/, and get support at https://wpdelicious.com/support-ticket/"
+
+#. Theme Name of the theme
+#: style.css
+#, gp-priority: high
+msgid "Crunchy Recipe"
+msgstr "Crunchy Recipe"
+
+#: functions.php:410
+msgid " Powered by %s. "
+msgstr " Desenvolvido por %s. "
+
+#: functions.php:408
+msgid " Crunchy Recipe | Developed By "
+msgstr " Crunchy Recipe | Desenvolvido por "
+
+#. Author URI of the theme
+#: style.css
+#, gp-priority: low
+msgid "https://wpdelicious.com/"
+msgstr "https://wpdelicious.com/"
+
+#. Author of the theme
+#: style.css functions.php:409
+#, gp-priority: low
+msgid "WP Delicious"
+msgstr "WP Delicious"
+
+#. Theme URI of the theme
+#: style.css
+#, gp-priority: low
+msgid "https://wpdelicious.com/wordpress-themes/crunchy-recipe/"
+msgstr "https://wpdelicious.com/wordpress-themes/crunchy-recipe/"
