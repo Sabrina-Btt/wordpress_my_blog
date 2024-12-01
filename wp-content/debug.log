@@ -1,0 +1,297 @@
+[01-Dec-2024 00:14:57 UTC] PHP Notice:  A função _load_textdomain_just_in_time foi chamada <strong>incorretamente</strong>. O carregamento da tradução para o domínio <code>yummy-bites</code> foi ativado muito cedo. Isso geralmente é um indicador de que algum código no plugin ou tema está sendo executado muito cedo. As traduções devem ser carregadas na ação <code>init</code> ou mais tarde. Leia como <a href="https://developer.wordpress.org/advanced-administration/debug/debug-wordpress/">Depurar o WordPress</a> para mais informações. (Esta mensagem foi adicionada na versão 6.7.0.) in C:\MAMP\htdocs\wordpress_my_blog\wp-includes\functions.php on line 6114
+[01-Dec-2024 00:15:22 UTC] PHP Notice:  A função _load_textdomain_just_in_time foi chamada <strong>incorretamente</strong>. O carregamento da tradução para o domínio <code>yummy-bites</code> foi ativado muito cedo. Isso geralmente é um indicador de que algum código no plugin ou tema está sendo executado muito cedo. As traduções devem ser carregadas na ação <code>init</code> ou mais tarde. Leia como <a href="https://developer.wordpress.org/advanced-administration/debug/debug-wordpress/">Depurar o WordPress</a> para mais informações. (Esta mensagem foi adicionada na versão 6.7.0.) in C:\MAMP\htdocs\wordpress_my_blog\wp-includes\functions.php on line 6114
+[01-Dec-2024 00:15:22 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "DELICIOUS_RECIPE_POST_TYPE" in C:\MAMP\htdocs\wordpress_my_blog\wp-content\themes\yummy-bites\inc\extras.php:1490
+Stack trace:
+#0 C:\MAMP\htdocs\wordpress_my_blog\wp-includes\class-wp-hook.php(324): yummy_bites_search_only_posts_and_recipes(Object(WP_Query))
+#1 C:\MAMP\htdocs\wordpress_my_blog\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#2 C:\MAMP\htdocs\wordpress_my_blog\wp-includes\plugin.php(565): WP_Hook->do_action(Array)
+#3 C:\MAMP\htdocs\wordpress_my_blog\wp-includes\class-wp-query.php(1881): do_action_ref_array('pre_get_posts', Array)
+#4 C:\MAMP\htdocs\wordpress_my_blog\wp-includes\class-wp-query.php(3852): WP_Query->get_posts()
+#5 C:\MAMP\htdocs\wordpress_my_blog\wp-includes\class-wp.php(696): WP_Query->query(Array)
+#6 C:\MAMP\htdocs\wordpress_my_blog\wp-includes\class-wp.php(816): WP->query_posts()
+#7 C:\MAMP\htdocs\wordpress_my_blog\wp-includes\functions.php(1336): WP->main('')
+#8 C:\MAMP\htdocs\wordpress_my_blog\wp-blog-header.php(16): wp()
+#9 C:\MAMP\htdocs\wordpress_my_blog\index.php(17): require('C:\\MAMP\\htdocs\\...')
+#10 {main}
+  thrown in C:\MAMP\htdocs\wordpress_my_blog\wp-content\themes\yummy-bites\inc\extras.php on line 1490
+[01-Dec-2024 00:15:56 UTC] PHP Notice:  A função _load_textdomain_just_in_time foi chamada <strong>incorretamente</strong>. O carregamento da tradução para o domínio <code>yummy-bites</code> foi ativado muito cedo. Isso geralmente é um indicador de que algum código no plugin ou tema está sendo executado muito cedo. As traduções devem ser carregadas na ação <code>init</code> ou mais tarde. Leia como <a href="https://developer.wordpress.org/advanced-administration/debug/debug-wordpress/">Depurar o WordPress</a> para mais informações. (Esta mensagem foi adicionada na versão 6.7.0.) in C:\MAMP\htdocs\wordpress_my_blog\wp-includes\functions.php on line 6114
+[01-Dec-2024 00:17:58 UTC] PHP Notice:  A função _load_textdomain_just_in_time foi chamada <strong>incorretamente</strong>. O carregamento da tradução para o domínio <code>yummy-bites</code> foi ativado muito cedo. Isso geralmente é um indicador de que algum código no plugin ou tema está sendo executado muito cedo. As traduções devem ser carregadas na ação <code>init</code> ou mais tarde. Leia como <a href="https://developer.wordpress.org/advanced-administration/debug/debug-wordpress/">Depurar o WordPress</a> para mais informações. (Esta mensagem foi adicionada na versão 6.7.0.) in C:\MAMP\htdocs\wordpress_my_blog\wp-includes\functions.php on line 6114
+[01-Dec-2024 00:18:11 UTC] PHP Notice:  A função _load_textdomain_just_in_time foi chamada <strong>incorretamente</strong>. O carregamento da tradução para o domínio <code>yummy-bites</code> foi ativado muito cedo. Isso geralmente é um indicador de que algum código no plugin ou tema está sendo executado muito cedo. As traduções devem ser carregadas na ação <code>init</code> ou mais tarde. Leia como <a href="https://developer.wordpress.org/advanced-administration/debug/debug-wordpress/">Depurar o WordPress</a> para mais informações. (Esta mensagem foi adicionada na versão 6.7.0.) in C:\MAMP\htdocs\wordpress_my_blog\wp-includes\functions.php on line 6114
+[01-Dec-2024 00:18:12 UTC] PHP Notice:  ob_end_flush(): Failed to send buffer of zlib output compression (1) in C:\MAMP\htdocs\wordpress_my_blog\wp-includes\functions.php on line 5464
+[01-Dec-2024 00:18:12 UTC] PHP Notice:  ob_end_flush(): Failed to send buffer of zlib output compression (1) in C:\MAMP\htdocs\wordpress_my_blog\wp-includes\functions.php on line 5464
+[01-Dec-2024 00:19:58 UTC] PHP Notice:  A função _load_textdomain_just_in_time foi chamada <strong>incorretamente</strong>. O carregamento da tradução para o domínio <code>yummy-bites</code> foi ativado muito cedo. Isso geralmente é um indicador de que algum código no plugin ou tema está sendo executado muito cedo. As traduções devem ser carregadas na ação <code>init</code> ou mais tarde. Leia como <a href="https://developer.wordpress.org/advanced-administration/debug/debug-wordpress/">Depurar o WordPress</a> para mais informações. (Esta mensagem foi adicionada na versão 6.7.0.) in C:\MAMP\htdocs\wordpress_my_blog\wp-includes\functions.php on line 6114
+[01-Dec-2024 00:20:44 UTC] PHP Notice:  A função _load_textdomain_just_in_time foi chamada <strong>incorretamente</strong>. O carregamento da tradução para o domínio <code>yummy-bites</code> foi ativado muito cedo. Isso geralmente é um indicador de que algum código no plugin ou tema está sendo executado muito cedo. As traduções devem ser carregadas na ação <code>init</code> ou mais tarde. Leia como <a href="https://developer.wordpress.org/advanced-administration/debug/debug-wordpress/">Depurar o WordPress</a> para mais informações. (Esta mensagem foi adicionada na versão 6.7.0.) in C:\MAMP\htdocs\wordpress_my_blog\wp-includes\functions.php on line 6114
+[01-Dec-2024 00:20:44 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "DELICIOUS_RECIPE_POST_TYPE" in C:\MAMP\htdocs\wordpress_my_blog\wp-content\themes\yummy-bites\inc\extras.php:1490
+Stack trace:
+#0 C:\MAMP\htdocs\wordpress_my_blog\wp-includes\class-wp-hook.php(324): yummy_bites_search_only_posts_and_recipes(Object(WP_Query))
+#1 C:\MAMP\htdocs\wordpress_my_blog\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#2 C:\MAMP\htdocs\wordpress_my_blog\wp-includes\plugin.php(565): WP_Hook->do_action(Array)
+#3 C:\MAMP\htdocs\wordpress_my_blog\wp-includes\class-wp-query.php(1881): do_action_ref_array('pre_get_posts', Array)
+#4 C:\MAMP\htdocs\wordpress_my_blog\wp-includes\class-wp-query.php(3852): WP_Query->get_posts()
+#5 C:\MAMP\htdocs\wordpress_my_blog\wp-includes\class-wp.php(696): WP_Query->query(Array)
+#6 C:\MAMP\htdocs\wordpress_my_blog\wp-includes\class-wp.php(816): WP->query_posts()
+#7 C:\MAMP\htdocs\wordpress_my_blog\wp-includes\functions.php(1336): WP->main('')
+#8 C:\MAMP\htdocs\wordpress_my_blog\wp-blog-header.php(16): wp()
+#9 C:\MAMP\htdocs\wordpress_my_blog\index.php(17): require('C:\\MAMP\\htdocs\\...')
+#10 {main}
+  thrown in C:\MAMP\htdocs\wordpress_my_blog\wp-content\themes\yummy-bites\inc\extras.php on line 1490
+[01-Dec-2024 00:21:16 UTC] PHP Notice:  A função _load_textdomain_just_in_time foi chamada <strong>incorretamente</strong>. O carregamento da tradução para o domínio <code>yummy-bites</code> foi ativado muito cedo. Isso geralmente é um indicador de que algum código no plugin ou tema está sendo executado muito cedo. As traduções devem ser carregadas na ação <code>init</code> ou mais tarde. Leia como <a href="https://developer.wordpress.org/advanced-administration/debug/debug-wordpress/">Depurar o WordPress</a> para mais informações. (Esta mensagem foi adicionada na versão 6.7.0.) in C:\MAMP\htdocs\wordpress_my_blog\wp-includes\functions.php on line 6114
+[01-Dec-2024 00:21:16 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "DELICIOUS_RECIPE_POST_TYPE" in C:\MAMP\htdocs\wordpress_my_blog\wp-content\themes\yummy-bites\inc\extras.php:1490
+Stack trace:
+#0 C:\MAMP\htdocs\wordpress_my_blog\wp-includes\class-wp-hook.php(324): yummy_bites_search_only_posts_and_recipes(Object(WP_Query))
+#1 C:\MAMP\htdocs\wordpress_my_blog\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#2 C:\MAMP\htdocs\wordpress_my_blog\wp-includes\plugin.php(565): WP_Hook->do_action(Array)
+#3 C:\MAMP\htdocs\wordpress_my_blog\wp-includes\class-wp-query.php(1881): do_action_ref_array('pre_get_posts', Array)
+#4 C:\MAMP\htdocs\wordpress_my_blog\wp-includes\class-wp-query.php(3852): WP_Query->get_posts()
+#5 C:\MAMP\htdocs\wordpress_my_blog\wp-includes\class-wp.php(696): WP_Query->query(Array)
+#6 C:\MAMP\htdocs\wordpress_my_blog\wp-includes\class-wp.php(816): WP->query_posts()
+#7 C:\MAMP\htdocs\wordpress_my_blog\wp-includes\functions.php(1336): WP->main('')
+#8 C:\MAMP\htdocs\wordpress_my_blog\wp-blog-header.php(16): wp()
+#9 C:\MAMP\htdocs\wordpress_my_blog\index.php(17): require('C:\\MAMP\\htdocs\\...')
+#10 {main}
+  thrown in C:\MAMP\htdocs\wordpress_my_blog\wp-content\themes\yummy-bites\inc\extras.php on line 1490
+[01-Dec-2024 00:21:55 UTC] PHP Parse error:  syntax error, unexpected token ">" in C:\MAMP\htdocs\wordpress_my_blog\wp-includes\blocks\search.php on line 604
+[01-Dec-2024 00:21:55 UTC] PHP Fatal error:  Uncaught Error: Call to a member function set() on null in C:\MAMP\htdocs\wordpress_my_blog\wp-includes\l10n.php:856
+Stack trace:
+#0 C:\MAMP\htdocs\wordpress_my_blog\wp-includes\l10n.php(959): load_textdomain('default', 'C:\\MAMP\\htdocs\\...', 'pt_BR')
+#1 C:\MAMP\htdocs\wordpress_my_blog\wp-includes\class-wp-fatal-error-handler.php(49): load_default_textdomain()
+#2 [internal function]: WP_Fatal_Error_Handler->handle()
+#3 {main}
+  thrown in C:\MAMP\htdocs\wordpress_my_blog\wp-includes\l10n.php on line 856
+[01-Dec-2024 00:23:56 UTC] PHP Parse error:  syntax error, unexpected token ">" in C:\MAMP\htdocs\wordpress_my_blog\wp-includes\blocks\search.php on line 604
+[01-Dec-2024 00:23:56 UTC] PHP Fatal error:  Uncaught Error: Call to a member function set() on null in C:\MAMP\htdocs\wordpress_my_blog\wp-includes\l10n.php:856
+Stack trace:
+#0 C:\MAMP\htdocs\wordpress_my_blog\wp-includes\l10n.php(959): load_textdomain('default', 'C:\\MAMP\\htdocs\\...', 'pt_BR')
+#1 C:\MAMP\htdocs\wordpress_my_blog\wp-includes\class-wp-fatal-error-handler.php(49): load_default_textdomain()
+#2 [internal function]: WP_Fatal_Error_Handler->handle()
+#3 {main}
+  thrown in C:\MAMP\htdocs\wordpress_my_blog\wp-includes\l10n.php on line 856
+[01-Dec-2024 00:31:55 UTC] PHP Parse error:  syntax error, unexpected token ">" in C:\MAMP\htdocs\wordpress_my_blog\wp-includes\blocks\search.php on line 604
+[01-Dec-2024 00:31:55 UTC] PHP Fatal error:  Uncaught Error: Call to a member function set() on null in C:\MAMP\htdocs\wordpress_my_blog\wp-includes\l10n.php:856
+Stack trace:
+#0 C:\MAMP\htdocs\wordpress_my_blog\wp-includes\l10n.php(959): load_textdomain('default', 'C:\\MAMP\\htdocs\\...', 'pt_BR')
+#1 C:\MAMP\htdocs\wordpress_my_blog\wp-includes\class-wp-fatal-error-handler.php(49): load_default_textdomain()
+#2 [internal function]: WP_Fatal_Error_Handler->handle()
+#3 {main}
+  thrown in C:\MAMP\htdocs\wordpress_my_blog\wp-includes\l10n.php on line 856
+[01-Dec-2024 00:32:37 UTC] PHP Notice:  A função _load_textdomain_just_in_time foi chamada <strong>incorretamente</strong>. O carregamento da tradução para o domínio <code>yummy-bites</code> foi ativado muito cedo. Isso geralmente é um indicador de que algum código no plugin ou tema está sendo executado muito cedo. As traduções devem ser carregadas na ação <code>init</code> ou mais tarde. Leia como <a href="https://developer.wordpress.org/advanced-administration/debug/debug-wordpress/">Depurar o WordPress</a> para mais informações. (Esta mensagem foi adicionada na versão 6.7.0.) in C:\MAMP\htdocs\wordpress_my_blog\wp-includes\functions.php on line 6114
+[01-Dec-2024 00:32:37 UTC] PHP Notice:  ob_end_flush(): Failed to send buffer of zlib output compression (1) in C:\MAMP\htdocs\wordpress_my_blog\wp-includes\functions.php on line 5464
+[01-Dec-2024 00:32:37 UTC] PHP Notice:  ob_end_flush(): Failed to send buffer of zlib output compression (1) in C:\MAMP\htdocs\wordpress_my_blog\wp-includes\functions.php on line 5464
+[01-Dec-2024 00:32:54 UTC] PHP Notice:  A função _load_textdomain_just_in_time foi chamada <strong>incorretamente</strong>. O carregamento da tradução para o domínio <code>yummy-bites</code> foi ativado muito cedo. Isso geralmente é um indicador de que algum código no plugin ou tema está sendo executado muito cedo. As traduções devem ser carregadas na ação <code>init</code> ou mais tarde. Leia como <a href="https://developer.wordpress.org/advanced-administration/debug/debug-wordpress/">Depurar o WordPress</a> para mais informações. (Esta mensagem foi adicionada na versão 6.7.0.) in C:\MAMP\htdocs\wordpress_my_blog\wp-includes\functions.php on line 6114
+[01-Dec-2024 00:32:55 UTC] PHP Notice:  ob_end_flush(): Failed to send buffer of zlib output compression (1) in C:\MAMP\htdocs\wordpress_my_blog\wp-includes\functions.php on line 5464
+[01-Dec-2024 00:32:55 UTC] PHP Notice:  ob_end_flush(): Failed to send buffer of zlib output compression (1) in C:\MAMP\htdocs\wordpress_my_blog\wp-includes\functions.php on line 5464
+[01-Dec-2024 00:33:49 UTC] PHP Notice:  A função _load_textdomain_just_in_time foi chamada <strong>incorretamente</strong>. O carregamento da tradução para o domínio <code>yummy-bites</code> foi ativado muito cedo. Isso geralmente é um indicador de que algum código no plugin ou tema está sendo executado muito cedo. As traduções devem ser carregadas na ação <code>init</code> ou mais tarde. Leia como <a href="https://developer.wordpress.org/advanced-administration/debug/debug-wordpress/">Depurar o WordPress</a> para mais informações. (Esta mensagem foi adicionada na versão 6.7.0.) in C:\MAMP\htdocs\wordpress_my_blog\wp-includes\functions.php on line 6114
+[01-Dec-2024 00:33:50 UTC] PHP Notice:  ob_end_flush(): Failed to send buffer of zlib output compression (1) in C:\MAMP\htdocs\wordpress_my_blog\wp-includes\functions.php on line 5464
+[01-Dec-2024 00:33:50 UTC] PHP Notice:  ob_end_flush(): Failed to send buffer of zlib output compression (1) in C:\MAMP\htdocs\wordpress_my_blog\wp-includes\functions.php on line 5464
+[01-Dec-2024 00:34:00 UTC] PHP Notice:  A função _load_textdomain_just_in_time foi chamada <strong>incorretamente</strong>. O carregamento da tradução para o domínio <code>yummy-bites</code> foi ativado muito cedo. Isso geralmente é um indicador de que algum código no plugin ou tema está sendo executado muito cedo. As traduções devem ser carregadas na ação <code>init</code> ou mais tarde. Leia como <a href="https://developer.wordpress.org/advanced-administration/debug/debug-wordpress/">Depurar o WordPress</a> para mais informações. (Esta mensagem foi adicionada na versão 6.7.0.) in C:\MAMP\htdocs\wordpress_my_blog\wp-includes\functions.php on line 6114
+[01-Dec-2024 00:34:01 UTC] PHP Notice:  ob_end_flush(): Failed to send buffer of zlib output compression (1) in C:\MAMP\htdocs\wordpress_my_blog\wp-includes\functions.php on line 5464
+[01-Dec-2024 00:34:01 UTC] PHP Notice:  ob_end_flush(): Failed to send buffer of zlib output compression (1) in C:\MAMP\htdocs\wordpress_my_blog\wp-includes\functions.php on line 5464
+[01-Dec-2024 00:37:21 UTC] PHP Notice:  A função _load_textdomain_just_in_time foi chamada <strong>incorretamente</strong>. O carregamento da tradução para o domínio <code>yummy-bites</code> foi ativado muito cedo. Isso geralmente é um indicador de que algum código no plugin ou tema está sendo executado muito cedo. As traduções devem ser carregadas na ação <code>init</code> ou mais tarde. Leia como <a href="https://developer.wordpress.org/advanced-administration/debug/debug-wordpress/">Depurar o WordPress</a> para mais informações. (Esta mensagem foi adicionada na versão 6.7.0.) in C:\MAMP\htdocs\wordpress_my_blog\wp-includes\functions.php on line 6116
+[01-Dec-2024 00:38:57 UTC] PHP Notice:  A função _load_textdomain_just_in_time foi chamada <strong>incorretamente</strong>. O carregamento da tradução para o domínio <code>yummy-bites</code> foi ativado muito cedo. Isso geralmente é um indicador de que algum código no plugin ou tema está sendo executado muito cedo. As traduções devem ser carregadas na ação <code>init</code> ou mais tarde. Leia como <a href="https://developer.wordpress.org/advanced-administration/debug/debug-wordpress/">Depurar o WordPress</a> para mais informações. (Esta mensagem foi adicionada na versão 6.7.0.) in C:\MAMP\htdocs\wordpress_my_blog\wp-includes\functions.php on line 6116
+[01-Dec-2024 00:39:00 UTC] PHP Notice:  A função _load_textdomain_just_in_time foi chamada <strong>incorretamente</strong>. O carregamento da tradução para o domínio <code>yummy-bites</code> foi ativado muito cedo. Isso geralmente é um indicador de que algum código no plugin ou tema está sendo executado muito cedo. As traduções devem ser carregadas na ação <code>init</code> ou mais tarde. Leia como <a href="https://developer.wordpress.org/advanced-administration/debug/debug-wordpress/">Depurar o WordPress</a> para mais informações. (Esta mensagem foi adicionada na versão 6.7.0.) in C:\MAMP\htdocs\wordpress_my_blog\wp-includes\functions.php on line 6116
+[01-Dec-2024 00:39:06 UTC] PHP Notice:  A função _load_textdomain_just_in_time foi chamada <strong>incorretamente</strong>. O carregamento da tradução para o domínio <code>yummy-bites</code> foi ativado muito cedo. Isso geralmente é um indicador de que algum código no plugin ou tema está sendo executado muito cedo. As traduções devem ser carregadas na ação <code>init</code> ou mais tarde. Leia como <a href="https://developer.wordpress.org/advanced-administration/debug/debug-wordpress/">Depurar o WordPress</a> para mais informações. (Esta mensagem foi adicionada na versão 6.7.0.) in C:\MAMP\htdocs\wordpress_my_blog\wp-includes\functions.php on line 6116
+[01-Dec-2024 00:39:08 UTC] PHP Notice:  A função _load_textdomain_just_in_time foi chamada <strong>incorretamente</strong>. O carregamento da tradução para o domínio <code>yummy-bites</code> foi ativado muito cedo. Isso geralmente é um indicador de que algum código no plugin ou tema está sendo executado muito cedo. As traduções devem ser carregadas na ação <code>init</code> ou mais tarde. Leia como <a href="https://developer.wordpress.org/advanced-administration/debug/debug-wordpress/">Depurar o WordPress</a> para mais informações. (Esta mensagem foi adicionada na versão 6.7.0.) in C:\MAMP\htdocs\wordpress_my_blog\wp-includes\functions.php on line 6116
+[01-Dec-2024 00:39:10 UTC] PHP Notice:  A função _load_textdomain_just_in_time foi chamada <strong>incorretamente</strong>. O carregamento da tradução para o domínio <code>yummy-bites</code> foi ativado muito cedo. Isso geralmente é um indicador de que algum código no plugin ou tema está sendo executado muito cedo. As traduções devem ser carregadas na ação <code>init</code> ou mais tarde. Leia como <a href="https://developer.wordpress.org/advanced-administration/debug/debug-wordpress/">Depurar o WordPress</a> para mais informações. (Esta mensagem foi adicionada na versão 6.7.0.) in C:\MAMP\htdocs\wordpress_my_blog\wp-includes\functions.php on line 6116
+[01-Dec-2024 00:39:16 UTC] PHP Notice:  A função _load_textdomain_just_in_time foi chamada <strong>incorretamente</strong>. O carregamento da tradução para o domínio <code>yummy-bites</code> foi ativado muito cedo. Isso geralmente é um indicador de que algum código no plugin ou tema está sendo executado muito cedo. As traduções devem ser carregadas na ação <code>init</code> ou mais tarde. Leia como <a href="https://developer.wordpress.org/advanced-administration/debug/debug-wordpress/">Depurar o WordPress</a> para mais informações. (Esta mensagem foi adicionada na versão 6.7.0.) in C:\MAMP\htdocs\wordpress_my_blog\wp-includes\functions.php on line 6116
+[01-Dec-2024 00:39:21 UTC] PHP Notice:  A função _load_textdomain_just_in_time foi chamada <strong>incorretamente</strong>. O carregamento da tradução para o domínio <code>yummy-bites</code> foi ativado muito cedo. Isso geralmente é um indicador de que algum código no plugin ou tema está sendo executado muito cedo. As traduções devem ser carregadas na ação <code>init</code> ou mais tarde. Leia como <a href="https://developer.wordpress.org/advanced-administration/debug/debug-wordpress/">Depurar o WordPress</a> para mais informações. (Esta mensagem foi adicionada na versão 6.7.0.) in C:\MAMP\htdocs\wordpress_my_blog\wp-includes\functions.php on line 6116
+[01-Dec-2024 00:39:27 UTC] PHP Notice:  A função _load_textdomain_just_in_time foi chamada <strong>incorretamente</strong>. O carregamento da tradução para o domínio <code>yummy-bites</code> foi ativado muito cedo. Isso geralmente é um indicador de que algum código no plugin ou tema está sendo executado muito cedo. As traduções devem ser carregadas na ação <code>init</code> ou mais tarde. Leia como <a href="https://developer.wordpress.org/advanced-administration/debug/debug-wordpress/">Depurar o WordPress</a> para mais informações. (Esta mensagem foi adicionada na versão 6.7.0.) in C:\MAMP\htdocs\wordpress_my_blog\wp-includes\functions.php on line 6116
+[01-Dec-2024 00:39:30 UTC] PHP Notice:  A função _load_textdomain_just_in_time foi chamada <strong>incorretamente</strong>. O carregamento da tradução para o domínio <code>yummy-bites</code> foi ativado muito cedo. Isso geralmente é um indicador de que algum código no plugin ou tema está sendo executado muito cedo. As traduções devem ser carregadas na ação <code>init</code> ou mais tarde. Leia como <a href="https://developer.wordpress.org/advanced-administration/debug/debug-wordpress/">Depurar o WordPress</a> para mais informações. (Esta mensagem foi adicionada na versão 6.7.0.) in C:\MAMP\htdocs\wordpress_my_blog\wp-includes\functions.php on line 6116
+[01-Dec-2024 00:39:36 UTC] PHP Notice:  A função _load_textdomain_just_in_time foi chamada <strong>incorretamente</strong>. O carregamento da tradução para o domínio <code>yummy-bites</code> foi ativado muito cedo. Isso geralmente é um indicador de que algum código no plugin ou tema está sendo executado muito cedo. As traduções devem ser carregadas na ação <code>init</code> ou mais tarde. Leia como <a href="https://developer.wordpress.org/advanced-administration/debug/debug-wordpress/">Depurar o WordPress</a> para mais informações. (Esta mensagem foi adicionada na versão 6.7.0.) in C:\MAMP\htdocs\wordpress_my_blog\wp-includes\functions.php on line 6116
+[01-Dec-2024 00:39:38 UTC] PHP Notice:  A função _load_textdomain_just_in_time foi chamada <strong>incorretamente</strong>. O carregamento da tradução para o domínio <code>yummy-bites</code> foi ativado muito cedo. Isso geralmente é um indicador de que algum código no plugin ou tema está sendo executado muito cedo. As traduções devem ser carregadas na ação <code>init</code> ou mais tarde. Leia como <a href="https://developer.wordpress.org/advanced-administration/debug/debug-wordpress/">Depurar o WordPress</a> para mais informações. (Esta mensagem foi adicionada na versão 6.7.0.) in C:\MAMP\htdocs\wordpress_my_blog\wp-includes\functions.php on line 6116
+[01-Dec-2024 00:39:39 UTC] PHP Notice:  A função _load_textdomain_just_in_time foi chamada <strong>incorretamente</strong>. O carregamento da tradução para o domínio <code>yummy-bites</code> foi ativado muito cedo. Isso geralmente é um indicador de que algum código no plugin ou tema está sendo executado muito cedo. As traduções devem ser carregadas na ação <code>init</code> ou mais tarde. Leia como <a href="https://developer.wordpress.org/advanced-administration/debug/debug-wordpress/">Depurar o WordPress</a> para mais informações. (Esta mensagem foi adicionada na versão 6.7.0.) in C:\MAMP\htdocs\wordpress_my_blog\wp-includes\functions.php on line 6116
+[01-Dec-2024 00:39:41 UTC] PHP Notice:  A função _load_textdomain_just_in_time foi chamada <strong>incorretamente</strong>. O carregamento da tradução para o domínio <code>yummy-bites</code> foi ativado muito cedo. Isso geralmente é um indicador de que algum código no plugin ou tema está sendo executado muito cedo. As traduções devem ser carregadas na ação <code>init</code> ou mais tarde. Leia como <a href="https://developer.wordpress.org/advanced-administration/debug/debug-wordpress/">Depurar o WordPress</a> para mais informações. (Esta mensagem foi adicionada na versão 6.7.0.) in C:\MAMP\htdocs\wordpress_my_blog\wp-includes\functions.php on line 6116
+[01-Dec-2024 00:39:45 UTC] PHP Notice:  A função _load_textdomain_just_in_time foi chamada <strong>incorretamente</strong>. O carregamento da tradução para o domínio <code>yummy-bites</code> foi ativado muito cedo. Isso geralmente é um indicador de que algum código no plugin ou tema está sendo executado muito cedo. As traduções devem ser carregadas na ação <code>init</code> ou mais tarde. Leia como <a href="https://developer.wordpress.org/advanced-administration/debug/debug-wordpress/">Depurar o WordPress</a> para mais informações. (Esta mensagem foi adicionada na versão 6.7.0.) in C:\MAMP\htdocs\wordpress_my_blog\wp-includes\functions.php on line 6116
+[01-Dec-2024 00:39:48 UTC] PHP Notice:  A função _load_textdomain_just_in_time foi chamada <strong>incorretamente</strong>. O carregamento da tradução para o domínio <code>yummy-bites</code> foi ativado muito cedo. Isso geralmente é um indicador de que algum código no plugin ou tema está sendo executado muito cedo. As traduções devem ser carregadas na ação <code>init</code> ou mais tarde. Leia como <a href="https://developer.wordpress.org/advanced-administration/debug/debug-wordpress/">Depurar o WordPress</a> para mais informações. (Esta mensagem foi adicionada na versão 6.7.0.) in C:\MAMP\htdocs\wordpress_my_blog\wp-includes\functions.php on line 6116
+[01-Dec-2024 00:40:17 UTC] PHP Notice:  A função _load_textdomain_just_in_time foi chamada <strong>incorretamente</strong>. O carregamento da tradução para o domínio <code>yummy-bites</code> foi ativado muito cedo. Isso geralmente é um indicador de que algum código no plugin ou tema está sendo executado muito cedo. As traduções devem ser carregadas na ação <code>init</code> ou mais tarde. Leia como <a href="https://developer.wordpress.org/advanced-administration/debug/debug-wordpress/">Depurar o WordPress</a> para mais informações. (Esta mensagem foi adicionada na versão 6.7.0.) in C:\MAMP\htdocs\wordpress_my_blog\wp-includes\functions.php on line 6116
+[01-Dec-2024 00:42:15 UTC] PHP Notice:  A função _load_textdomain_just_in_time foi chamada <strong>incorretamente</strong>. O carregamento da tradução para o domínio <code>yummy-bites</code> foi ativado muito cedo. Isso geralmente é um indicador de que algum código no plugin ou tema está sendo executado muito cedo. As traduções devem ser carregadas na ação <code>init</code> ou mais tarde. Leia como <a href="https://developer.wordpress.org/advanced-administration/debug/debug-wordpress/">Depurar o WordPress</a> para mais informações. (Esta mensagem foi adicionada na versão 6.7.0.) in C:\MAMP\htdocs\wordpress_my_blog\wp-includes\functions.php on line 6116
+[01-Dec-2024 00:43:16 UTC] PHP Notice:  A função _load_textdomain_just_in_time foi chamada <strong>incorretamente</strong>. O carregamento da tradução para o domínio <code>yummy-bites</code> foi ativado muito cedo. Isso geralmente é um indicador de que algum código no plugin ou tema está sendo executado muito cedo. As traduções devem ser carregadas na ação <code>init</code> ou mais tarde. Leia como <a href="https://developer.wordpress.org/advanced-administration/debug/debug-wordpress/">Depurar o WordPress</a> para mais informações. (Esta mensagem foi adicionada na versão 6.7.0.) in C:\MAMP\htdocs\wordpress_my_blog\wp-includes\functions.php on line 6116
+[01-Dec-2024 00:45:17 UTC] PHP Notice:  A função _load_textdomain_just_in_time foi chamada <strong>incorretamente</strong>. O carregamento da tradução para o domínio <code>yummy-bites</code> foi ativado muito cedo. Isso geralmente é um indicador de que algum código no plugin ou tema está sendo executado muito cedo. As traduções devem ser carregadas na ação <code>init</code> ou mais tarde. Leia como <a href="https://developer.wordpress.org/advanced-administration/debug/debug-wordpress/">Depurar o WordPress</a> para mais informações. (Esta mensagem foi adicionada na versão 6.7.0.) in C:\MAMP\htdocs\wordpress_my_blog\wp-includes\functions.php on line 6116
+[01-Dec-2024 00:47:16 UTC] PHP Parse error:  syntax error, unexpected token "}" in C:\MAMP\htdocs\wordpress_my_blog\wp-includes\l10n.php on line 1408
+[01-Dec-2024 00:47:17 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function load_textdomain() in C:\MAMP\htdocs\wordpress_my_blog\wp-includes\load.php:1575
+Stack trace:
+#0 C:\MAMP\htdocs\wordpress_my_blog\wp-includes\class-wp-fatal-error-handler.php(176): wp_load_translations_early()
+#1 C:\MAMP\htdocs\wordpress_my_blog\wp-includes\class-wp-fatal-error-handler.php(156): WP_Fatal_Error_Handler->display_default_error_template(Array, false)
+#2 C:\MAMP\htdocs\wordpress_my_blog\wp-includes\class-wp-fatal-error-handler.php(60): WP_Fatal_Error_Handler->display_error_template(Array, false)
+#3 [internal function]: WP_Fatal_Error_Handler->handle()
+#4 {main}
+  thrown in C:\MAMP\htdocs\wordpress_my_blog\wp-includes\load.php on line 1575
+[01-Dec-2024 00:47:18 UTC] PHP Parse error:  syntax error, unexpected token "}" in C:\MAMP\htdocs\wordpress_my_blog\wp-includes\l10n.php on line 1408
+[01-Dec-2024 00:47:18 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function load_textdomain() in C:\MAMP\htdocs\wordpress_my_blog\wp-includes\load.php:1575
+Stack trace:
+#0 C:\MAMP\htdocs\wordpress_my_blog\wp-includes\class-wp-fatal-error-handler.php(176): wp_load_translations_early()
+#1 C:\MAMP\htdocs\wordpress_my_blog\wp-includes\class-wp-fatal-error-handler.php(156): WP_Fatal_Error_Handler->display_default_error_template(Array, false)
+#2 C:\MAMP\htdocs\wordpress_my_blog\wp-includes\class-wp-fatal-error-handler.php(60): WP_Fatal_Error_Handler->display_error_template(Array, false)
+#3 [internal function]: WP_Fatal_Error_Handler->handle()
+#4 {main}
+  thrown in C:\MAMP\htdocs\wordpress_my_blog\wp-includes\load.php on line 1575
+[01-Dec-2024 00:50:30 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "DELICIOUS_RECIPE_POST_TYPE" in C:\MAMP\htdocs\wordpress_my_blog\wp-content\themes\yummy-bites\inc\extras.php:1490
+Stack trace:
+#0 C:\MAMP\htdocs\wordpress_my_blog\wp-includes\class-wp-hook.php(324): yummy_bites_search_only_posts_and_recipes(Object(WP_Query))
+#1 C:\MAMP\htdocs\wordpress_my_blog\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#2 C:\MAMP\htdocs\wordpress_my_blog\wp-includes\plugin.php(565): WP_Hook->do_action(Array)
+#3 C:\MAMP\htdocs\wordpress_my_blog\wp-includes\class-wp-query.php(1881): do_action_ref_array('pre_get_posts', Array)
+#4 C:\MAMP\htdocs\wordpress_my_blog\wp-includes\class-wp-query.php(3852): WP_Query->get_posts()
+#5 C:\MAMP\htdocs\wordpress_my_blog\wp-includes\class-wp.php(696): WP_Query->query(Array)
+#6 C:\MAMP\htdocs\wordpress_my_blog\wp-includes\class-wp.php(816): WP->query_posts()
+#7 C:\MAMP\htdocs\wordpress_my_blog\wp-includes\functions.php(1336): WP->main('')
+#8 C:\MAMP\htdocs\wordpress_my_blog\wp-blog-header.php(16): wp()
+#9 C:\MAMP\htdocs\wordpress_my_blog\index.php(17): require('C:\\MAMP\\htdocs\\...')
+#10 {main}
+  thrown in C:\MAMP\htdocs\wordpress_my_blog\wp-content\themes\yummy-bites\inc\extras.php on line 1490
+[01-Dec-2024 01:00:56 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "DELICIOUS_RECIPE_POST_TYPE" in C:\MAMP\htdocs\wordpress_my_blog\wp-content\themes\yummy-bites\inc\extras.php:1490
+Stack trace:
+#0 C:\MAMP\htdocs\wordpress_my_blog\wp-includes\class-wp-hook.php(324): yummy_bites_search_only_posts_and_recipes(Object(WP_Query))
+#1 C:\MAMP\htdocs\wordpress_my_blog\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#2 C:\MAMP\htdocs\wordpress_my_blog\wp-includes\plugin.php(565): WP_Hook->do_action(Array)
+#3 C:\MAMP\htdocs\wordpress_my_blog\wp-includes\class-wp-query.php(1881): do_action_ref_array('pre_get_posts', Array)
+#4 C:\MAMP\htdocs\wordpress_my_blog\wp-includes\class-wp-query.php(3852): WP_Query->get_posts()
+#5 C:\MAMP\htdocs\wordpress_my_blog\wp-includes\class-wp.php(696): WP_Query->query(Array)
+#6 C:\MAMP\htdocs\wordpress_my_blog\wp-includes\class-wp.php(816): WP->query_posts()
+#7 C:\MAMP\htdocs\wordpress_my_blog\wp-includes\functions.php(1336): WP->main('')
+#8 C:\MAMP\htdocs\wordpress_my_blog\wp-blog-header.php(16): wp()
+#9 C:\MAMP\htdocs\wordpress_my_blog\index.php(17): require('C:\\MAMP\\htdocs\\...')
+#10 {main}
+  thrown in C:\MAMP\htdocs\wordpress_my_blog\wp-content\themes\yummy-bites\inc\extras.php on line 1490
+[01-Dec-2024 01:05:23 UTC] PHP Parse error:  syntax error, unexpected token "if" in C:\MAMP\htdocs\wordpress_my_blog\wp-content\themes\yummy-bites\inc\extras.php on line 1488
+[01-Dec-2024 01:05:23 UTC] PHP Warning:  Trying to access array offset on false in C:\MAMP\htdocs\wordpress_my_blog\wp-includes\class-wp-recovery-mode-email-service.php on line 367
+[01-Dec-2024 01:05:23 UTC] PHP Warning:  Trying to access array offset on false in C:\MAMP\htdocs\wordpress_my_blog\wp-includes\class-wp-recovery-mode-email-service.php on line 368
+[01-Dec-2024 01:16:48 UTC] PHP Warning:  wp_version_check(): Ocorreu um erro inesperado. Algo pode estar errado com o WordPress.org ou com a configuração deste servidor. Se os problemas persistirem, busque ajuda no <a href="https://br.wordpress.org/support/forums/">fórum de suporte</a>. (O WordPress não conseguiu estabelecer uma conexão segura com o WordPress.org. Contate o administrador do servidor.) in C:\MAMP\htdocs\wordpress_my_blog\wp-includes\functions.php on line 6116
+[01-Dec-2024 01:17:09 UTC] PHP Warning:  wp_update_plugins(): Ocorreu um erro inesperado. Algo pode estar errado com o WordPress.org ou com a configuração deste servidor. Se os problemas persistirem, busque ajuda no <a href="https://br.wordpress.org/support/forums/">fórum de suporte</a>. (O WordPress não conseguiu estabelecer uma conexão segura com o WordPress.org. Contate o administrador do servidor.) in C:\MAMP\htdocs\wordpress_my_blog\wp-includes\functions.php on line 6116
+[01-Dec-2024 01:17:12 UTC] PHP Warning:  wp_update_themes(): Ocorreu um erro inesperado. Algo pode estar errado com o WordPress.org ou com a configuração deste servidor. Se os problemas persistirem, busque ajuda no <a href="https://br.wordpress.org/support/forums/">fórum de suporte</a>. (O WordPress não conseguiu estabelecer uma conexão segura com o WordPress.org. Contate o administrador do servidor.) in C:\MAMP\htdocs\wordpress_my_blog\wp-includes\functions.php on line 6116
+[01-Dec-2024 01:18:13 UTC] PHP Deprecated:  A função get_page_by_title está <strong>obsoleta</strong> desde a versão 6.2.0! Em vez disso, use WP_Query. in C:\MAMP\htdocs\wordpress_my_blog\wp-includes\functions.php on line 6116
+[01-Dec-2024 01:18:13 UTC] PHP Deprecated:  A função get_page_by_title está <strong>obsoleta</strong> desde a versão 6.2.0! Em vez disso, use WP_Query. in C:\MAMP\htdocs\wordpress_my_blog\wp-includes\functions.php on line 6116
+[01-Dec-2024 01:18:13 UTC] PHP Deprecated:  A função get_page_by_title está <strong>obsoleta</strong> desde a versão 6.2.0! Em vez disso, use WP_Query. in C:\MAMP\htdocs\wordpress_my_blog\wp-includes\functions.php on line 6116
+[01-Dec-2024 01:18:13 UTC] PHP Deprecated:  A função get_page_by_title está <strong>obsoleta</strong> desde a versão 6.2.0! Em vez disso, use WP_Query. in C:\MAMP\htdocs\wordpress_my_blog\wp-includes\functions.php on line 6116
+[01-Dec-2024 01:18:13 UTC] PHP Deprecated:  A função get_page_by_title está <strong>obsoleta</strong> desde a versão 6.2.0! Em vez disso, use WP_Query. in C:\MAMP\htdocs\wordpress_my_blog\wp-includes\functions.php on line 6116
+[01-Dec-2024 01:18:13 UTC] PHP Deprecated:  A função get_page_by_title está <strong>obsoleta</strong> desde a versão 6.2.0! Em vez disso, use WP_Query. in C:\MAMP\htdocs\wordpress_my_blog\wp-includes\functions.php on line 6116
+[01-Dec-2024 01:18:14 UTC] PHP Deprecated:  A função get_page_by_title está <strong>obsoleta</strong> desde a versão 6.2.0! Em vez disso, use WP_Query. in C:\MAMP\htdocs\wordpress_my_blog\wp-includes\functions.php on line 6116
+[01-Dec-2024 13:59:43 UTC] Automatic updates starting...
+[01-Dec-2024 13:59:45 UTC] Automatic updates complete.
+[01-Dec-2024 17:26:12 UTC] PHP Warning:  require(C:\MAMP\htdocs\wordpress_my_blog/wp-content/themes/yummy-bites/inc/popular-recipes-widget.php): Failed to open stream: No such file or directory in C:\MAMP\htdocs\wordpress_my_blog\wp-content\themes\yummy-bites\functions.php on line 131
+[01-Dec-2024 17:26:12 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\MAMP\htdocs\wordpress_my_blog/wp-content/themes/yummy-bites/inc/popular-recipes-widget.php' (include_path='.;C:\php\pear') in C:\MAMP\htdocs\wordpress_my_blog\wp-content\themes\yummy-bites\functions.php:131
+Stack trace:
+#0 C:\MAMP\htdocs\wordpress_my_blog\wp-settings.php(672): include()
+#1 C:\MAMP\htdocs\wordpress_my_blog\wp-config.php(103): require_once('C:\\MAMP\\htdocs\\...')
+#2 C:\MAMP\htdocs\wordpress_my_blog\wp-load.php(50): require_once('C:\\MAMP\\htdocs\\...')
+#3 C:\MAMP\htdocs\wordpress_my_blog\wp-admin\admin-ajax.php(22): require_once('C:\\MAMP\\htdocs\\...')
+#4 {main}
+  thrown in C:\MAMP\htdocs\wordpress_my_blog\wp-content\themes\yummy-bites\functions.php on line 131
+[01-Dec-2024 17:26:14 UTC] PHP Warning:  require(C:\MAMP\htdocs\wordpress_my_blog/wp-content/themes/yummy-bites/inc/popular-recipes-widget.php): Failed to open stream: No such file or directory in C:\MAMP\htdocs\wordpress_my_blog\wp-content\themes\yummy-bites\functions.php on line 131
+[01-Dec-2024 17:26:14 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\MAMP\htdocs\wordpress_my_blog/wp-content/themes/yummy-bites/inc/popular-recipes-widget.php' (include_path='.;C:\php\pear') in C:\MAMP\htdocs\wordpress_my_blog\wp-content\themes\yummy-bites\functions.php:131
+Stack trace:
+#0 C:\MAMP\htdocs\wordpress_my_blog\wp-settings.php(672): include()
+#1 C:\MAMP\htdocs\wordpress_my_blog\wp-config.php(103): require_once('C:\\MAMP\\htdocs\\...')
+#2 C:\MAMP\htdocs\wordpress_my_blog\wp-load.php(50): require_once('C:\\MAMP\\htdocs\\...')
+#3 C:\MAMP\htdocs\wordpress_my_blog\wp-admin\admin-ajax.php(22): require_once('C:\\MAMP\\htdocs\\...')
+#4 {main}
+  thrown in C:\MAMP\htdocs\wordpress_my_blog\wp-content\themes\yummy-bites\functions.php on line 131
+[01-Dec-2024 17:26:15 UTC] PHP Warning:  require(C:\MAMP\htdocs\wordpress_my_blog/wp-content/themes/yummy-bites/inc/popular-recipes-widget.php): Failed to open stream: No such file or directory in C:\MAMP\htdocs\wordpress_my_blog\wp-content\themes\yummy-bites\functions.php on line 131
+[01-Dec-2024 17:26:15 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\MAMP\htdocs\wordpress_my_blog/wp-content/themes/yummy-bites/inc/popular-recipes-widget.php' (include_path='.;C:\php\pear') in C:\MAMP\htdocs\wordpress_my_blog\wp-content\themes\yummy-bites\functions.php:131
+Stack trace:
+#0 C:\MAMP\htdocs\wordpress_my_blog\wp-settings.php(672): include()
+#1 C:\MAMP\htdocs\wordpress_my_blog\wp-config.php(103): require_once('C:\\MAMP\\htdocs\\...')
+#2 C:\MAMP\htdocs\wordpress_my_blog\wp-load.php(50): require_once('C:\\MAMP\\htdocs\\...')
+#3 C:\MAMP\htdocs\wordpress_my_blog\wp-blog-header.php(13): require_once('C:\\MAMP\\htdocs\\...')
+#4 C:\MAMP\htdocs\wordpress_my_blog\index.php(17): require('C:\\MAMP\\htdocs\\...')
+#5 {main}
+  thrown in C:\MAMP\htdocs\wordpress_my_blog\wp-content\themes\yummy-bites\functions.php on line 131
+[01-Dec-2024 17:27:43 UTC] Automatic updates starting...
+[01-Dec-2024 17:27:45 UTC] Automatic updates complete.
+[01-Dec-2024 17:54:10 UTC] PHP Warning:  Undefined variable $popular_recipes_query in C:\MAMP\htdocs\wordpress_my_blog\wp-content\themes\yummy-bites\sections\popular-recipes.php on line 23
+[01-Dec-2024 17:54:10 UTC] PHP Fatal error:  Uncaught Error: Call to a member function have_posts() on null in C:\MAMP\htdocs\wordpress_my_blog\wp-content\themes\yummy-bites\sections\popular-recipes.php:23
+Stack trace:
+#0 C:\MAMP\htdocs\wordpress_my_blog\wp-includes\template-loader.php(106): include()
+#1 C:\MAMP\htdocs\wordpress_my_blog\wp-blog-header.php(19): require_once('C:\\MAMP\\htdocs\\...')
+#2 C:\MAMP\htdocs\wordpress_my_blog\index.php(17): require('C:\\MAMP\\htdocs\\...')
+#3 {main}
+  thrown in C:\MAMP\htdocs\wordpress_my_blog\wp-content\themes\yummy-bites\sections\popular-recipes.php on line 23
+[01-Dec-2024 17:54:25 UTC] PHP Fatal error:  Uncaught Error: Call to a member function have_posts() on array in C:\MAMP\htdocs\wordpress_my_blog\wp-content\themes\yummy-bites\sections\popular-recipes.php:23
+Stack trace:
+#0 C:\MAMP\htdocs\wordpress_my_blog\wp-includes\template-loader.php(106): include()
+#1 C:\MAMP\htdocs\wordpress_my_blog\wp-blog-header.php(19): require_once('C:\\MAMP\\htdocs\\...')
+#2 C:\MAMP\htdocs\wordpress_my_blog\index.php(17): require('C:\\MAMP\\htdocs\\...')
+#3 {main}
+  thrown in C:\MAMP\htdocs\wordpress_my_blog\wp-content\themes\yummy-bites\sections\popular-recipes.php on line 23
+[01-Dec-2024 17:55:25 UTC] Erro: A consulta não é uma instância de WP_Query.
+[01-Dec-2024 17:55:25 UTC] PHP Fatal error:  Uncaught Error: Call to a member function have_posts() on array in C:\MAMP\htdocs\wordpress_my_blog\wp-content\themes\yummy-bites\sections\popular-recipes.php:27
+Stack trace:
+#0 C:\MAMP\htdocs\wordpress_my_blog\wp-includes\template-loader.php(106): include()
+#1 C:\MAMP\htdocs\wordpress_my_blog\wp-blog-header.php(19): require_once('C:\\MAMP\\htdocs\\...')
+#2 C:\MAMP\htdocs\wordpress_my_blog\index.php(17): require('C:\\MAMP\\htdocs\\...')
+#3 {main}
+  thrown in C:\MAMP\htdocs\wordpress_my_blog\wp-content\themes\yummy-bites\sections\popular-recipes.php on line 27
+[01-Dec-2024 17:55:37 UTC] Erro: A consulta não é uma instância de WP_Query.
+[01-Dec-2024 17:55:37 UTC] PHP Fatal error:  Uncaught Error: Call to a member function have_posts() on array in C:\MAMP\htdocs\wordpress_my_blog\wp-content\themes\yummy-bites\sections\popular-recipes.php:27
+Stack trace:
+#0 C:\MAMP\htdocs\wordpress_my_blog\wp-includes\template-loader.php(106): include()
+#1 C:\MAMP\htdocs\wordpress_my_blog\wp-blog-header.php(19): require_once('C:\\MAMP\\htdocs\\...')
+#2 C:\MAMP\htdocs\wordpress_my_blog\index.php(17): require('C:\\MAMP\\htdocs\\...')
+#3 {main}
+  thrown in C:\MAMP\htdocs\wordpress_my_blog\wp-content\themes\yummy-bites\sections\popular-recipes.php on line 27
+[01-Dec-2024 17:56:01 UTC] PHP Parse error:  syntax error, unexpected token "}" in C:\MAMP\htdocs\wordpress_my_blog\wp-content\themes\yummy-bites\sections\popular-recipes.php on line 27
+[01-Dec-2024 17:56:09 UTC] Erro: A consulta não é uma instância de WP_Query.
+[01-Dec-2024 17:56:09 UTC] PHP Fatal error:  Uncaught Error: Call to a member function have_posts() on array in C:\MAMP\htdocs\wordpress_my_blog\wp-content\themes\yummy-bites\sections\popular-recipes.php:29
+Stack trace:
+#0 C:\MAMP\htdocs\wordpress_my_blog\wp-includes\template-loader.php(106): include()
+#1 C:\MAMP\htdocs\wordpress_my_blog\wp-blog-header.php(19): require_once('C:\\MAMP\\htdocs\\...')
+#2 C:\MAMP\htdocs\wordpress_my_blog\index.php(17): require('C:\\MAMP\\htdocs\\...')
+#3 {main}
+  thrown in C:\MAMP\htdocs\wordpress_my_blog\wp-content\themes\yummy-bites\sections\popular-recipes.php on line 29
+[01-Dec-2024 17:56:57 UTC] Erro: A consulta não é uma instância de WP_Query.
+[01-Dec-2024 17:56:57 UTC] PHP Fatal error:  Uncaught Error: Call to a member function have_posts() on array in C:\MAMP\htdocs\wordpress_my_blog\wp-content\themes\yummy-bites\sections\popular-recipes.php:29
+Stack trace:
+#0 C:\MAMP\htdocs\wordpress_my_blog\wp-includes\template-loader.php(106): include()
+#1 C:\MAMP\htdocs\wordpress_my_blog\wp-blog-header.php(19): require_once('C:\\MAMP\\htdocs\\...')
+#2 C:\MAMP\htdocs\wordpress_my_blog\index.php(17): require('C:\\MAMP\\htdocs\\...')
+#3 {main}
+  thrown in C:\MAMP\htdocs\wordpress_my_blog\wp-content\themes\yummy-bites\sections\popular-recipes.php on line 29
+[01-Dec-2024 17:57:02 UTC] Erro: A consulta não é uma instância de WP_Query.
+[01-Dec-2024 17:57:02 UTC] PHP Fatal error:  Uncaught Error: Call to a member function have_posts() on array in C:\MAMP\htdocs\wordpress_my_blog\wp-content\themes\yummy-bites\sections\popular-recipes.php:29
+Stack trace:
+#0 C:\MAMP\htdocs\wordpress_my_blog\wp-includes\template-loader.php(106): include()
+#1 C:\MAMP\htdocs\wordpress_my_blog\wp-blog-header.php(19): require_once('C:\\MAMP\\htdocs\\...')
+#2 C:\MAMP\htdocs\wordpress_my_blog\index.php(17): require('C:\\MAMP\\htdocs\\...')
+#3 {main}
+  thrown in C:\MAMP\htdocs\wordpress_my_blog\wp-content\themes\yummy-bites\sections\popular-recipes.php on line 29
+[01-Dec-2024 17:59:09 UTC] Erro: A consulta não é uma instância de WP_Query.
+[01-Dec-2024 17:59:09 UTC] PHP Fatal error:  Uncaught Error: Call to a member function have_posts() on array in C:\MAMP\htdocs\wordpress_my_blog\wp-content\themes\yummy-bites\sections\popular-recipes.php:34
+Stack trace:
+#0 C:\MAMP\htdocs\wordpress_my_blog\wp-includes\template-loader.php(106): include()
+#1 C:\MAMP\htdocs\wordpress_my_blog\wp-blog-header.php(19): require_once('C:\\MAMP\\htdocs\\...')
+#2 C:\MAMP\htdocs\wordpress_my_blog\index.php(17): require('C:\\MAMP\\htdocs\\...')
+#3 {main}
+  thrown in C:\MAMP\htdocs\wordpress_my_blog\wp-content\themes\yummy-bites\sections\popular-recipes.php on line 34
+[01-Dec-2024 17:59:55 UTC] Erro: A consulta não é uma instância de WP_Query.
+[01-Dec-2024 17:59:55 UTC] PHP Fatal error:  Uncaught Error: Call to a member function have_posts() on array in C:\MAMP\htdocs\wordpress_my_blog\wp-content\themes\yummy-bites\sections\popular-recipes.php:31
+Stack trace:
+#0 C:\MAMP\htdocs\wordpress_my_blog\wp-includes\template-loader.php(106): include()
+#1 C:\MAMP\htdocs\wordpress_my_blog\wp-blog-header.php(19): require_once('C:\\MAMP\\htdocs\\...')
+#2 C:\MAMP\htdocs\wordpress_my_blog\index.php(17): require('C:\\MAMP\\htdocs\\...')
+#3 {main}
+  thrown in C:\MAMP\htdocs\wordpress_my_blog\wp-content\themes\yummy-bites\sections\popular-recipes.php on line 31
+[01-Dec-2024 18:01:19 UTC] Erro: A consulta não é uma instância de WP_Query.
+[01-Dec-2024 18:01:19 UTC] PHP Fatal error:  Uncaught Error: Call to a member function have_posts() on array in C:\MAMP\htdocs\wordpress_my_blog\wp-content\themes\yummy-bites\sections\popular-recipes.php:34
+Stack trace:
+#0 C:\MAMP\htdocs\wordpress_my_blog\wp-includes\template-loader.php(106): include()
+#1 C:\MAMP\htdocs\wordpress_my_blog\wp-blog-header.php(19): require_once('C:\\MAMP\\htdocs\\...')
+#2 C:\MAMP\htdocs\wordpress_my_blog\index.php(17): require('C:\\MAMP\\htdocs\\...')
+#3 {main}
+  thrown in C:\MAMP\htdocs\wordpress_my_blog\wp-content\themes\yummy-bites\sections\popular-recipes.php on line 34
+[01-Dec-2024 18:02:07 UTC] PHP Warning:  Undefined variable $popular_recipes in C:\MAMP\htdocs\wordpress_my_blog\wp-content\themes\yummy-bites\sections\popular-recipes.php on line 24
+[01-Dec-2024 18:23:10 UTC] PHP Warning:  Undefined variable $qry in C:\MAMP\htdocs\wordpress_my_blog\wp-content\themes\yummy-bites\sections\popular-recipes.php on line 67
+[01-Dec-2024 18:23:10 UTC] PHP Fatal error:  Uncaught Error: Call to a member function have_posts() on null in C:\MAMP\htdocs\wordpress_my_blog\wp-content\themes\yummy-bites\sections\popular-recipes.php:67
+Stack trace:
+#0 C:\MAMP\htdocs\wordpress_my_blog\wp-includes\template-loader.php(106): include()
+#1 C:\MAMP\htdocs\wordpress_my_blog\wp-blog-header.php(19): require_once('C:\\MAMP\\htdocs\\...')
+#2 C:\MAMP\htdocs\wordpress_my_blog\index.php(17): require('C:\\MAMP\\htdocs\\...')
+#3 {main}
+  thrown in C:\MAMP\htdocs\wordpress_my_blog\wp-content\themes\yummy-bites\sections\popular-recipes.php on line 67
+[01-Dec-2024 18:23:32 UTC] PHP Fatal error:  Uncaught Error: Call to a member function have_posts() on array in C:\MAMP\htdocs\wordpress_my_blog\wp-content\themes\yummy-bites\sections\popular-recipes.php:67
+Stack trace:
+#0 C:\MAMP\htdocs\wordpress_my_blog\wp-includes\template-loader.php(106): include()
+#1 C:\MAMP\htdocs\wordpress_my_blog\wp-blog-header.php(19): require_once('C:\\MAMP\\htdocs\\...')
+#2 C:\MAMP\htdocs\wordpress_my_blog\index.php(17): require('C:\\MAMP\\htdocs\\...')
+#3 {main}
+  thrown in C:\MAMP\htdocs\wordpress_my_blog\wp-content\themes\yummy-bites\sections\popular-recipes.php on line 67
+[01-Dec-2024 18:25:21 UTC] PHP Warning:  Undefined array key "posts_per_page" in C:\MAMP\htdocs\wordpress_my_blog\wp-content\themes\yummy-bites\sections\popular-recipes.php on line 120
+[01-Dec-2024 19:03:06 UTC] PHP Fatal error:  Cannot redeclare add_blog_class_to_popular_recipes_page() (previously declared in C:\MAMP\htdocs\wordpress_my_blog\wp-content\themes\yummy-bites\functions.php:133) in C:\MAMP\htdocs\wordpress_my_blog\wp-content\themes\yummy-bites\sections\popular-recipes.php on line 12
