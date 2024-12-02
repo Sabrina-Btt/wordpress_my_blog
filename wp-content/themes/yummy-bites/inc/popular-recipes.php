@@ -8,6 +8,7 @@
 class Popular_Recipes_Widget extends WP_Widget {
 
     function __construct() {
+        
         parent::__construct(
             'popular_recipes_widget', 
             __('Receitas Mais Populares', 'yummy_bites'), 
