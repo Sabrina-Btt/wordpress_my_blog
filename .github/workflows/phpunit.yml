@@ -1,4 +1,4 @@
-name: Run PHPUnit Tests
+name: WordPress Tests
 
 on:
   push:
@@ -9,48 +9,45 @@ on:
       - main
 
 jobs:
-  phpunit:
+  test:
     runs-on: ubuntu-latest
 
     services:
       mysql:
-        image: mysql:8.0.40
-        ports:
-          - 3306:3306
-        options: >-
-          --health-cmd="mysqladmin ping --silent"
-          --health-interval=10s
-          --health-timeout=5s
-          --health-retries=3
+        image: mysql:8.0
         env:
           MYSQL_DATABASE: ${{ secrets.DB_NAME }}
           MYSQL_USER: ${{ secrets.DB_USER }}
           MYSQL_PASSWORD: ${{ secrets.DB_PASSWORD }}
           MYSQL_ROOT_PASSWORD: ${{ secrets.MYSQL_ROOT_PASSWORD }}
+        ports:
+          - 3306:3306
+        options: >-
+          --health-cmd="mysqladmin ping -h localhost -uroot -proot_password"
+          --health-interval=10s
+          --health-timeout=5s
+          --health-retries=3
 
     steps:
-      - name: Check out repository
+      - name: Checkout code
         uses: actions/checkout@v3
 
-      - name: Set up PHP
+      - name: Setup PHP
         uses: shivammathur/setup-php@v2
         with:
-          php-version: '8.3'
+          php-version: 8.0
+          extensions: mysqli
+          ini-values: post_max_size=256M, upload_max_filesize=256M
+          coverage: none
 
       - name: Install dependencies
-        run: |
-          curl -sS https://getcomposer.org/installer | php
-          php composer.phar install --no-interaction
-
-      - name: Set up WordPress test environment
-        run: |
-          curl -O https://raw.githubusercontent.com/wp-cli/builds/gh-pages/phar/wp-cli.phar
-          chmod +x wp-cli.phar
-          sudo mv wp-cli.phar /usr/local/bin/wp
-          wp core download --path=wordpress
-          wp config create --dbname=wordpress --dbuser=wordpress --dbpass=wordpress --dbhost=127.0.0.1 --path=wordpress
-          wp db create --path=wordpress
-          wp core install --url=http://localhost --title="Test Site" --admin_user=admin --admin_password=admin --admin_email=test@example.com --path=wordpress
+        run: composer install
 
       - name: Run PHPUnit tests
-        run: ./vendor/bin/phpunit --configuration phpunit.xml
+        env:
+          DB_NAME: ${{ secrets.DB_NAME }}
+          DB_USER: ${{ secrets.DB_USER }}
+          DB_PASSWORD: ${{ secrets.DB_PASSWORD }}
+          DB_HOST: 127.0.0.1
+        run: composer test
+
