@@ -295,3 +295,5 @@ Stack trace:
   thrown in C:\MAMP\htdocs\wordpress_my_blog\wp-content\themes\yummy-bites\sections\popular-recipes.php on line 67
 [01-Dec-2024 18:25:21 UTC] PHP Warning:  Undefined array key "posts_per_page" in C:\MAMP\htdocs\wordpress_my_blog\wp-content\themes\yummy-bites\sections\popular-recipes.php on line 120
 [01-Dec-2024 19:03:06 UTC] PHP Fatal error:  Cannot redeclare add_blog_class_to_popular_recipes_page() (previously declared in C:\MAMP\htdocs\wordpress_my_blog\wp-content\themes\yummy-bites\functions.php:133) in C:\MAMP\htdocs\wordpress_my_blog\wp-content\themes\yummy-bites\sections\popular-recipes.php on line 12
+[02-Dec-2024 01:51:39 UTC] PHP Warning:  include_once(../wp-content/themes/yummy-bites/inc/popular-recipes.php): Failed to open stream: No such file or directory in C:\MAMP\htdocs\wordpress_my_blog\tests\PopularRecipesWidgetTest.php on line 11
+[02-Dec-2024 01:51:39 UTC] PHP Warning:  include_once(): Failed opening '../wp-content/themes/yummy-bites/inc/popular-recipes.php' for inclusion (include_path='.;C:\php\pear') in C:\MAMP\htdocs\wordpress_my_blog\tests\PopularRecipesWidgetTest.php on line 11

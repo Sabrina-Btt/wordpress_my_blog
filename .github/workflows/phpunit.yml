@@ -1,0 +1,29 @@
+name: Run PHPUnit Tests
+
+on:
+  push:
+    branches:
+      - main   
+  pull_request:
+    branches:
+      - main  
+
+jobs:
+  phpunit:
+    runs-on: ubuntu-latest  
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v3
+
+      - name: Set up PHP
+        uses: shivammathur/setup-php@v2
+        with:
+          php-version: '8.3.1'  
+      - name: Install dependencies
+        run: |
+          curl -sS https://getcomposer.org/installer | php
+          php composer.phar install --no-interaction
+
+      - name: Run PHPUnit tests
+        run: ./vendor/bin/phpunit --configuration phpunit.xml
