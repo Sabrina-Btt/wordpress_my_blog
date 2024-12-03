@@ -73,7 +73,7 @@ if( $ed_banner == 'slider_banner' ){
             
         $qry = new WP_Query( $args );
         if( $qry->have_posts() ){ ?>
-            <div id="banner_section" class="site-banner banner-slider <?php echo esc_attr( $class ); ?>">
+            <div id="banner_section" class="site-banner banner-slider <?php echo esc_attr( $class ); ?>" style="margin-top: 0;">
                 <div class="container">
                     <div class="item-wrapper owl-carousel">
                         <?php while( $qry->have_posts() ){ $qry->the_post(); ?>

@@ -434,11 +434,6 @@ function yummy_bites_dynamic_css(){
             letter-spacing: <?php echo absint( $sitetabletSpacing ); ?>px;
         }
 
-        .site-branding .custom-logo-link img{
-			width: <?php echo absint( $tablet_logo_width ); ?>px;
-        }
-
-
         .back-to-top{
             --yummy-scroll-to-top-size: <?php echo absint($tablet_scroll_top_size); ?>px;
         }
@@ -509,10 +504,6 @@ function yummy_bites_dynamic_css(){
             font-size   : <?php echo absint( $sitemobileFontSize ); ?>px;
             line-height   : <?php echo floatval( $sitemobileHeight ); ?>em;
             letter-spacing: <?php echo absint( $sitemobileSpacing ); ?>px;
-        }
-
-        .site-branding .custom-logo-link img{
-            width: <?php echo absint( $mobile_logo_width ); ?>px;
         }
 
         .back-to-top{
